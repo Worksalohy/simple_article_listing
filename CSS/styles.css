@@ -1,0 +1,105 @@
+
+body{
+    height: 100wh;
+    background-color: #f8fafc;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.25rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+img{
+    width: 150px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.separation{
+    margin: 0px;
+    font-size: 1.2rem;
+}
+
+.text{
+    font-size: 1.25rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+.date-text{
+    font-size: 0.875rem;
+    color: #4d5562;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+.separation{
+    color: #d9d9d9;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 50%;
+}
+
+.first, .second, .third{
+    display: flex;
+    gap: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+    img{
+        width: 120px;
+        height: 120px;
+        border-radius: 10px;
+    }
+
+
+    .container{
+        width: 80%;
+    }
+
+    h1{
+        font-size: 1.875rem;
+    }
+
+    .text{
+        font-size: 1.2rem;
+    }
+    
+    .date-text{
+        font-size: 0.625rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    img{
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+    }
+
+
+    .container{
+        width: 90%;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    .text{
+        font-size: 1rem;
+    }
+    
+    .date-text{
+        font-size: 0.5rem;
+    }
+}
